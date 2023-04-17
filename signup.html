@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="flex relative">
+        <div class="w-7/12 h-screen bg-white flex flex-col items-center justify-center">
+            <div class="w-full max-w-lg 2xl:max-w-2xl mt-16 px-6 2xl:px-12 items-center">
+                <p class="text-center font-bold text-3xl text-gray-900">
+                    Create Your Account
+                </p>
+                <div class="mt-6">
+                    <div class="flex justify-between">
+                        <button class="hover:text-gray-900 border-solid border-2 rounded">
+                            <div class="flex w-24 p-2 px-6 2xl:w-32 2xl:px-12 items-center justify-center">
+                                <img src="./images/google.png" alt="google" class="h-4 mr-2 " />
+                                <p class="text-sm 2xl:text-lg font-medium">Google</p>
+                            </div>
+                        </button>
+                        <button class="hover:text-gray-900 border-solid border-2 rounded">
+                            <div class="flex w-24 p-2 px-6 2xl:w-32 2xl:px-12 items-center justify-center">
+                                <img src="./images/fb.png" alt="fb" class="h-4 mr-2 " />
+                                <p class="text-sm 2xl:text-lg font-medium">Facebook</p>
+                            </div>
+                        </button>
+                        <button class="hover:text-gray-900 border-solid border-2 rounded">
+                            <div class="flex w-24 p-2 px-6 2xl:w-32 2xl:px-12 items-center justify-center">
+                                <img src="./images/apple.png" alt="apple" class="h-4 mr-2 " />
+                                <p class="text-sm 2xl:text-lg font-medium">Apple</p>
+                            </div>
+                        </button>
+                        <button class="hover:text-gray-900 border-solid border-2 rounded">
+                            <div class="flex w-24 p-2 px-6 2xl:w-32 2xl:px-12 items-center justify-center">
+                                <img src="./images/microsoft.png" alt="microsoft" class="h-4 mr-2 " />
+                                <p class="text-sm 2xl:text-lg font-medium">Microsoft</p>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="mt-6">
+                        <form>
+                            <div class="flex items-center mt-4">
+                                <hr class="flex-grow border-gray-300" />
+                                <span class="px-1 font-medium">OR</span>
+                                <hr class="flex-grow border-gray-300" />
+                            </div>
+
+                            <div class="grid grid-cols-1 mt-8 gap-6 field">
+                                <div>
+                                    <label for="first_name" class="tagline block font-normal text-sm 2xl:text-lg font-medium">Your
+                                        First
+                                        Name</label>
+                                    <input type="text" name="first_name" id="first_name"
+                                        class="mt-1 text-sm 2xl:text-lg p-0.5 ps-4  w-full border-solid focus:ring focus:ring-purple-500 border-2" />
+                                </div>
+                                <div>
+                                    <label for="last_name" class="tagline block font-normal text-sm 2xl:text-lg font-medium">Your
+                                        Last
+                                        Name</label>
+                                    <input type="text" name="last_name" id="last_name"
+                                        class="mt-1 text-sm 2xl:text-lg p-0.5 ps-4  w-full border-solid focus:ring focus:ring-purple-500 border-2" />
+                                </div>
+                                <div>
+                                    <label for="email" class="tagline block font-normal text-sm 2xl:text-lg font-medium">Type your
+                                        email address</label>
+                                    <input type="email" name="email" id="email"
+                                        class="mt-1 text-sm 2xl:text-lg p-0.5 ps-4  w-full border-solid focus:ring focus:ring-purple-500 border-2" />
+                                </div>
+                                <div>
+                                    <label for="password" class="tagline block font-normal text-sm 2xl:text-lg font-medium">Enter a
+                                        Password *</label>
+                                    <input type="password" name="password" id="password"
+                                        class="mt-1 text-sm 2xl:text-lg p-0.5 ps-4  w-full border-solid focus:ring focus:ring-purple-500 border-2" />
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" name="agree" id="agree"
+                                        class="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded" />
+                                    <label for="agree" class="tagline ml-2 block text-sm 2xl:text-lg tagline">
+                                        I have read and I accept Zesle terms of use:
+                                        <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">readterms</a>.
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="mt-6">
+                                <button type="submit"
+                                    class="w-full px-4 py-2 border border-transparen rounded text-white get-started">
+                                    Get Started
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex justify-center text-sm 2xl:text-lg text-gray-500 mt-16">
+                        <p>Already have an account? </p>
+                        <a href="#" class="text-blue-500 hover:text-blue-700 font-medium ml-3 "> Sign in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center text-sm 2xl:text-lg text-gray-500 mt-6">
+                <p>By creating an account, you agree to our</p>
+                <a href="#" class="text-blue-500 hover:text-blue-700 font-medium ml-1">Terms of Service.</a>
+            </div>
+        </div>
+        <div class="w-5/12 right h-screen relative overflow-hidden flex flex-col items-center">
+            <div class="flex absolute py-4 px-6 2xl:px-12 items-center top-0 right-0">
+                <div class="flex items-center justify-center">
+                    <img src="./images/Icon metro-eart.svg" alt="globe" class="h-4" />
+                </div>
+                <select id="language-select" name="language" class="ml-1 bg-transparent text-gray-500">
+                    <option value="en">En</option>
+                    <option value="es">Es</option>
+                    <option value="fr">Fr</option>
+                </select>
+
+            </div>
+            <div class="absolute top_blob right-20">
+                <img src="../images/blob.svg" alt="Blob" class="">
+            </div>
+            <div class="absolute bottom_blob">
+                <img src="../images/blob2.svg" alt="Blob2" class="">
+            </div>
+            <div class="absolute arrow bottom-12">
+                <img src="../images/arrow.svg" alt="arrow" class="h-32">
+            </div>
+            <div class="absolute opacity-10 top-56 right-10">
+                <img src="../images/bubble.svg" alt="bubble" class="h-12">
+            </div>
+            <div class="flex flex-col items-center m-auto 2xl:mt-40">
+                <div class="container mx-auto w-full max-w-md 2xl:max-w-lg">
+                    <div class="flex justify-center items-center">
+                        <img src="./images/logo.svg" alt="Logo" class="h-16" />
+                        <h1 class="font-semibold text-4xl ml-4">ZesleChat</h1>
+                    </div>
+                    <p class="text-center text-xs 2xl:text-sm  footer_tagline mt-4 2xl:mt-16">Trusted by 300,000+ companies</p>
+                </div>
+                <div class="container mx-auto w-full max-w-md 2xl:max-w-lg mt-8 2xl:mt-12">
+                    <h1 class="text-xl font-bold">Popular Features</h1>
+                    <div class="container mx-auto flex">
+                        <div class="w-4/12 p-2">
+                            <h2 class="text-sm 2xl:text-lg font-bold mb-4">Scale</h2>
+                            <ul class="list-disc list-inside">
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/help.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">Help desk</span>
+                                </li>
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/knowledge.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">Knowledge base2</span>
+                                </li>
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/live.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">Live chat</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-4/12 p-2">
+                            <h2 class="text-sm 2xl:text-lg font-bold mb-4">Unite</h2>
+                            <ul class="list-disc list-inside">
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/crm.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">CRM</span>
+                                </li>
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/inbox.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">Conversations inbox</span>
+                                </li>
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/group.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">Team management</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-4/12 p-2">
+                            <h2 class="text-sm 2xl:text-lg font-bold mb-4">Empower Service</h2>
+                            <ul class="list-disc list-inside">
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/review_logo.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">Customer feedback</span>
+                                </li>
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/book.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">Playbooks</span>
+                                </li>
+                                <li class="flex items-center mb-2">
+                                    <img src="../images/video-library.svg" class="mr-2">
+                                    <span class="text-xs 2xl:text-sm  font-medium tagline">1:1 video creation</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+                </div>
+                <div class="container flex mx-auto max-w-lg 2xl:max-w-xl h-64 w-full mt-8">
+                    <img class="h-48 2xl:h-64" src="./images/review.png" alt="review" />
+                    <img src="./images/girl_blob.png" alt="girl_blob" class="h-48 2xl:h-64 mt-10" />
+                </div>
+                <p class="text-center text-xs 2xl:text-sm  footer_tagline mt-4 2xl:mt-16">Used daily by 10,804+ DTC brands</p>
+                <div class="flex mt-4 2xl:mt-12">
+                    <img src="../images/1st.png" alt="Your Image 1" class="h-5 2xl:h-8 mr-5">
+                    <img src="../images/2nd.png" alt="Your Image 2" class="h-5 2xl:h-8 mr-5">
+                    <img src="../images/3rd.png" alt="Your Image 3" class="h-5 2xl:h-8 mr-5">
+                    <img src="../images/4th.png" alt="Your Image 4" class="h-5 2xl:h-8 mr-5">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+

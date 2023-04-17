@@ -1,0 +1,33 @@
+body {
+  font-family: 'segoe ui', sans-serif;
+}
+.right {
+  background-color: #f4f2fd;
+}
+.get-started {
+  background-color: #377fee !important;
+}
+.field > div > input {
+  border-color: #e9edf9;
+  border-radius: 3px;
+}
+.tagline,
+.light_grey > li > span {
+  color: #595866;
+}
+.top_blob {
+  top: -12rem;
+  opacity: 0.2;
+}
+.bottom_blob {
+  bottom: -10.5rem;
+  left: -15rem;
+  opacity: 0.5;
+}
+.arrow {
+  opacity: 0.6;
+  right: -3rem;
+}
+.footer_tagline {
+  color: #242a3a;
+}
